@@ -58,7 +58,7 @@ function Contact() {
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <Row>
                 <Col xs={12}>
-                    <p className='copyright-color'>ABHISHEK ANNAPPA PRABHU ©2020</p>
+                    <p className='copyright-style'>ABHISHEK ANNAPPA PRABHU ©2020</p>
                 </Col>
             </Row>
         </Container>

@@ -29,10 +29,15 @@ function About() {
                         <br/><br/>
                         <p className='about-content'>
                             I'm a graduate student at the University at Buffalo majoring in Management
-                            Information Systems. I love designing and building websites from
-                            scratch that are fast, responsive and dynamic. I'm also passionate about
-                            Data Science & Machine Learning, and their application in eclectic fields.
-                            Seeking full time opportunities in web development beginning in June 2020.
+                            Information Systems.<br/>
+                            <hr className='hr-about'/>
+                            I love designing and building websites from scratch that are fast,
+                            responsive and dynamic.<br/>
+                            <hr className='hr-about'/>
+                            I'm also passionate about Data Science & Machine Learning,
+                            and their application in eclectic fields.<br/>
+                            {/*<hr className='hr-about'/>
+                            <b>Actively seeking full time opportunities in web development beginning in June 2020.</b> */}
                         </p>
                     </Col>
                 </Row>
