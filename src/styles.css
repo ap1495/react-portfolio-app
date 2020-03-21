@@ -48,7 +48,14 @@
 
 @media screen and (max-width: 992px) {
     .card-container {
-        padding-bottom: 20px;
+        padding-bottom: 50px;
+        text-align: -webkit-center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sub-contact-container {
+        padding-bottom: 50px;
         text-align: -webkit-center;
     }
 }
@@ -62,24 +69,28 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .padding-section {
+@media screen and (max-width: 1024px) {
+    .education-sub-section {
         padding-right: 30px;
         padding-left: 30px;
+        font-size: larger;
     }
 }
 
-.padding-coursework-right {
-    padding-right: 50px;
+.education-sub-header {
+    font-size: 1.5rem;
 }
 
-.padding-coursework-left {
-    padding-left: 50px;
+.coursework-header {
+    font-size: 1.36rem;
 }
 
-.padding-coursework {
-    padding-bottom: 50px;
+@media screen and (max-width: 768px) {
+    .padding-coursework {
+        padding-bottom: 50px;
+    }
 }
+
 
 .skills-img {
     height: 90px;

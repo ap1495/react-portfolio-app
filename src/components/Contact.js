@@ -15,7 +15,7 @@ function Contact() {
                 </Col>
             </Row>
             <Row className={'pt-5'}>
-                <Col xs={12} md={4}>
+                <Col xs={12} md={4} className='sub-contact-container'>
                         <a className='contact-links' href='mailto:aannaappa@buffalo.edu'>
                             <Image
                                 className='contact-logos'
@@ -26,7 +26,7 @@ function Contact() {
                         </a>
                 </Col>
 
-                <Col xs={12} md={4}>
+                <Col xs={12} md={4} className='sub-contact-container'>
                     <a
                         className='contact-links'
                         href='https://www.linkedin.com/in/abhishekap/'
@@ -40,7 +40,7 @@ function Contact() {
                         <p>abhishekap</p>
                     </a>
                 </Col>
-                <Col xs={12} md={4}>
+                <Col xs={12} md={4} className='sub-contact-container'>
                     <a
                         className='contact-links'
                         href='https://github.com/ap1495'
