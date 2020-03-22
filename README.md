@@ -1,1 +1,1 @@
-Single Page Application developed on React.js
+Portfolio site developed with React.js
