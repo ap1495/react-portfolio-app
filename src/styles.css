@@ -51,7 +51,7 @@
 
 .about-container {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 10rem;
     /* height: 100vh; */
     background-color: #FBF9F9;
@@ -182,4 +182,8 @@
 .copyright-style {
     color: #D1D1D1;
     font-size: large;
+}
+
+.padding-copyright {
+    padding-top: 320px;
 }
