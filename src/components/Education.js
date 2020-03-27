@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 import { Container, Row, Col, ListGroup } from 'react-bootstrap'
 import '../styles.css'
 
@@ -7,7 +8,11 @@ function Education() {
         <Container id='Education' className='education-container'>
             <Row>
                 <Col className='section-header' xs={12}>
-                    <h1><u>EDUCATION</u></h1>
+                    <ScrollAnimation
+                        animateIn='bounceInLeft'
+                    >
+                        <h1><u>EDUCATION</u></h1>
+                    </ScrollAnimation>
                 </Col>
             </Row>
 

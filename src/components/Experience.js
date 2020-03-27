@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 import { Container, Row, Col, Image, Card, Button } from 'react-bootstrap'
 import { Element } from 'react-scroll'
 import university from '../pictures/university.png'
@@ -11,7 +12,11 @@ function Experience() {
         <Container className='experience-container' id='Experience' fluid>
             <Row>
                 <Col className='section-header' xs={12}>
-                    <h1><u>EXPERIENCE</u></h1>
+                    <ScrollAnimation
+                        animateIn='bounceInLeft'
+                    >
+                        <h1><u>EXPERIENCE</u></h1>
+                    </ScrollAnimation>
                 </Col>
             </Row>
             <Row className={'pt-5'}>

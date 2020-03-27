@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import email from '../pictures/email.png'
 import linkedin from '../pictures/linkedin.jfif'
@@ -10,7 +11,11 @@ function Contact() {
         <Container id='Contact' className='contact-container' fluid>
             <Row>
                 <Col xs={12} className='section-header'>
-                    <h1><u>CONTACT</u></h1>
+                    <ScrollAnimation
+                        animateIn='bounceInLeft'
+                    >
+                        <h1><u>CONTACT</u></h1>
+                    </ScrollAnimation>
                 </Col>
             </Row>
 

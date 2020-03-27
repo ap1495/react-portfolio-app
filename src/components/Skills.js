@@ -1,5 +1,6 @@
 import React from 'react'
 import { ProgressBar, Container, Row, Col, Image } from 'react-bootstrap'
+import ScrollAnimation from 'react-animate-on-scroll'
 import html5 from '../pictures/html5.png'
 import react from '../pictures/react.png'
 import css3 from '../pictures/css3.png'
@@ -19,7 +20,11 @@ function Skills() {
         <Container className={'skill-container'} id='Skills'>
             <Row>
                 <Col className='section-header' xs={12}>
-                    <h1><u>SKILLS</u></h1>
+                    <ScrollAnimation
+                        animateIn='bounceInLeft'
+                    >
+                        <h1><u>SKILLS</u></h1>
+                    </ScrollAnimation>
                 </Col>
             </Row>
             <Row className={'pt-5'}>
