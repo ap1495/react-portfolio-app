@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81650eb5328e5dc033d7a2d907c0ad49",
+    "revision": "a161d1a2487b755fe0941ab5e3a313d5",
     "url": "/react-portfolio-app/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio-app/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "e3deca31031b950533df",
-    "url": "/react-portfolio-app/static/css/main.e465b452.chunk.css"
+    "revision": "63fe6376b3cc9308156d",
+    "url": "/react-portfolio-app/static/css/main.0f2c41f8.chunk.css"
   },
   {
     "revision": "aae2f5d7234e93b94a09",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio-app/static/js/2.2e64565e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3deca31031b950533df",
+    "revision": "63fe6376b3cc9308156d",
     "url": "/react-portfolio-app/static/js/main.f33e47a8.chunk.js"
   },
   {
