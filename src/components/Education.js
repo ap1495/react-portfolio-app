@@ -9,7 +9,7 @@ function Education() {
             <Row>
                 <Col className='section-header' xs={12}>
                     <ScrollAnimation
-                        animateIn='bounceInLeft'
+                        animateIn='slideInLeft'
                         animateOnce={true}
                     >
                         <h1><u>EDUCATION</u></h1>
@@ -18,7 +18,7 @@ function Education() {
             </Row>
 
             <ScrollAnimation
-                animateIn='bounceInRight'
+                animateIn='slideInLeft'
                 animateOnce={true}
             >
                 <Row className={'pt-5 education-sub-section'}>

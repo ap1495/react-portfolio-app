@@ -1,6 +1,9 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import profile from '../pictures/abhishek.png'
+import email from '../pictures/email.png'
+import linkedin from '../pictures/linkedin.jfif'
+import github from '../pictures/github.png'
 import '../styles.css'
 
 function About() {
@@ -28,6 +31,39 @@ function About() {
                         Front End Developer, Data Scientist<br/>
                         Buffalo, New York
                     </h5>
+                    <a
+                        className='contact-links'
+                        href='mailto:aannaappa@buffalo.edu'
+                    >
+
+                        <Image
+                            className='about-contact-logos'
+                            src={email}
+                            rounded
+                        />
+                    </a>
+                    <a
+                        className='contact-links'
+                        href='https://www.linkedin.com/in/abhishekap/'
+                        target='_blank'
+                    >
+                        <Image
+                            className='about-contact-logos'
+                            src={linkedin}
+                            rounded
+                        />
+                    </a>
+                    <a
+                        className='contact-links'
+                        href='https://github.com/ap1495'
+                        target='blank'
+                    >
+                        <Image
+                            className='about-contact-logos'
+                            src={github}
+                            rounded
+                        />
+                    </a>
 
                     <br/><br/>
 

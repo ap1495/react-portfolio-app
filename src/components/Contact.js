@@ -12,7 +12,8 @@ function Contact() {
             <Row>
                 <Col xs={12} className='section-header'>
                     <ScrollAnimation
-                        animateIn='bounceInLeft'
+                        animateIn='slideInLeft'
+                        animateOnce={true}
                     >
                         <h1><u>CONTACT</u></h1>
                     </ScrollAnimation>
@@ -20,7 +21,7 @@ function Contact() {
             </Row>
 
             <ScrollAnimation
-                animateIn='bounceInRight'
+                animateIn='slideInLeft'
                 animateOnce={true}
             >
                 <Row className={'pt-5'}>
