@@ -19,48 +19,53 @@ function Contact() {
                 </Col>
             </Row>
 
-            <Row className={'pt-5'}>
-                <Col xs={12} md={4} className='sub-contact-container'>
-                        <a className='contact-links' href='mailto:aannaappa@buffalo.edu'>
+            <ScrollAnimation
+                animateIn='bounceInRight'
+                animateOnce={true}
+            >
+                <Row className={'pt-5'}>
+                    <Col xs={12} md={4} className='sub-contact-container'>
+                            <a className='contact-links' href='mailto:aannaappa@buffalo.edu'>
+                                <Image
+                                    className='contact-logos'
+                                    src={email}
+                                    rounded
+                                />
+                                 <p>aannappa@buffalo.edu</p>
+                            </a>
+                    </Col>
+
+                    <Col xs={12} md={4} className='sub-contact-container'>
+                        <a
+                            className='contact-links'
+                            href='https://www.linkedin.com/in/abhishekap/'
+                            target='_blank'
+                        >
                             <Image
                                 className='contact-logos'
-                                src={email}
+                                src={linkedin}
                                 rounded
                             />
-                             <p>aannappa@buffalo.edu</p>
+                            <p>abhishekap</p>
                         </a>
-                </Col>
+                    </Col>
 
-                <Col xs={12} md={4} className='sub-contact-container'>
-                    <a
-                        className='contact-links'
-                        href='https://www.linkedin.com/in/abhishekap/'
-                        target='_blank'
-                    >
-                        <Image
-                            className='contact-logos'
-                            src={linkedin}
-                            rounded
-                        />
-                        <p>abhishekap</p>
-                    </a>
-                </Col>
-
-                <Col xs={12} md={4} className='sub-contact-container'>
-                    <a
-                        className='contact-links'
-                        href='https://github.com/ap1495'
-                        target='blank'
-                    >
-                        <Image
-                            className='contact-logos'
-                            src={github}
-                            rounded
-                        />
-                        <p>ap1495</p>
-                    </a>
-                </Col>
-            </Row>
+                    <Col xs={12} md={4} className='sub-contact-container'>
+                        <a
+                            className='contact-links'
+                            href='https://github.com/ap1495'
+                            target='blank'
+                        >
+                            <Image
+                                className='contact-logos'
+                                src={github}
+                                rounded
+                            />
+                            <p>ap1495</p>
+                        </a>
+                    </Col>
+                </Row>
+            </ScrollAnimation>
 
             <Row className='padding-copyright'>
                 <Col xs={12}>

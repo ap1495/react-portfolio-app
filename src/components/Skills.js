@@ -22,114 +22,121 @@ function Skills() {
                 <Col className='section-header' xs={12}>
                     <ScrollAnimation
                         animateIn='bounceInLeft'
+                        animateOnce={true}
                     >
                         <h1><u>SKILLS</u></h1>
                     </ScrollAnimation>
                 </Col>
             </Row>
-            <Row className={'pt-5'}>
-                <Col xs={12} md={6} className='padding-section padding-skills-right'>
-                    <Image
-                        className='skills-img'
-                        src={html5}
-                        rounded
-                    />
-                    <ProgressBar now={90} label={90}/>
-                    <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={react}
-                        rounded
-                    />
-                    <ProgressBar now={85} label={85}/>
-                    <br/>
+            <ScrollAnimation
+                animateIn='bounceInRight'
+                animateOnce={true}
+            >
+                <Row className={'pt-5'}>
+                    <Col xs={12} md={6} className='padding-section padding-skills-right'>
+                        <Image
+                            className='skills-img'
+                            src={html5}
+                            rounded
+                        />
+                        <ProgressBar now={90} label={90}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={css3}
-                        rounded
-                    />
-                    <ProgressBar now={80} label={80}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={react}
+                            rounded
+                        />
+                        <ProgressBar now={85} label={85}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={bootstrap}
-                        rounded
-                    />
-                    <ProgressBar now={80} label={80}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={css3}
+                            rounded
+                        />
+                        <ProgressBar now={80} label={80}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={javascript}
-                        rounded
-                    />
-                    <ProgressBar now={70} label={70}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={bootstrap}
+                            rounded
+                        />
+                        <ProgressBar now={80} label={80}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={angular}
-                        rounded
-                    />
-                    <ProgressBar now={60} label={60}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={javascript}
+                            rounded
+                        />
+                        <ProgressBar now={70} label={70}/>
+                        <br/>
 
-                </Col>
+                        <Image
+                            className='skills-img'
+                            src={angular}
+                            rounded
+                        />
+                        <ProgressBar now={60} label={60}/>
+                        <br/>
 
-                <Col xs={12} md={6} className={'padding-section padding-skills-left'}>
-                    <Image
-                        className='skills-img'
-                        src={python}
-                        rounded
-                    />
-                    <ProgressBar now={90} label={90}/>
-                    <br/>
+                    </Col>
 
-                    <Image
-                        className='skills-img'
-                        src={tableau}
-                        rounded
-                    />
-                    <ProgressBar now={90} label={90}/>
-                    <br/>
+                    <Col xs={12} md={6} className={'padding-section padding-skills-left'}>
+                        <Image
+                            className='skills-img'
+                            src={python}
+                            rounded
+                        />
+                        <ProgressBar now={90} label={90}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={mysql}
-                        rounded
-                    />
-                    <ProgressBar now={85} label={85}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={tableau}
+                            rounded
+                        />
+                        <ProgressBar now={90} label={90}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={googleanalytics}
-                        rounded
-                    />
-                    <ProgressBar now={80} label={80}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={mysql}
+                            rounded
+                        />
+                        <ProgressBar now={85} label={85}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={pyspark}
-                        rounded
-                    />
-                    <ProgressBar now={60} label={60}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={googleanalytics}
+                            rounded
+                        />
+                        <ProgressBar now={80} label={80}/>
+                        <br/>
 
-                    <Image
-                        className='skills-img'
-                        src={aws}
-                        rounded
-                    />
-                    <ProgressBar now={60} label={60}/>
-                    <br/>
+                        <Image
+                            className='skills-img'
+                            src={pyspark}
+                            rounded
+                        />
+                        <ProgressBar now={60} label={60}/>
+                        <br/>
 
-                </Col>
-            </Row>
+                        <Image
+                            className='skills-img'
+                            src={aws}
+                            rounded
+                        />
+                        <ProgressBar now={60} label={60}/>
+                        <br/>
+
+                    </Col>
+                </Row>
+            </ScrollAnimation>
         </Container>
     )
 }
