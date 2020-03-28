@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio-app/static/css/main.2c4f5102.chunk.css",
-    "main.js": "/react-portfolio-app/static/js/main.0cebcaf6.chunk.js",
-    "main.js.map": "/react-portfolio-app/static/js/main.0cebcaf6.chunk.js.map",
+    "main.js": "/react-portfolio-app/static/js/main.70092720.chunk.js",
+    "main.js.map": "/react-portfolio-app/static/js/main.70092720.chunk.js.map",
     "runtime-main.js": "/react-portfolio-app/static/js/runtime-main.d3b6ca8a.js",
     "runtime-main.js.map": "/react-portfolio-app/static/js/runtime-main.d3b6ca8a.js.map",
     "static/css/2.de424728.chunk.css": "/react-portfolio-app/static/css/2.de424728.chunk.css",
-    "static/js/2.e8bb9ce6.chunk.js": "/react-portfolio-app/static/js/2.e8bb9ce6.chunk.js",
-    "static/js/2.e8bb9ce6.chunk.js.map": "/react-portfolio-app/static/js/2.e8bb9ce6.chunk.js.map",
+    "static/js/2.a3ace2a3.chunk.js": "/react-portfolio-app/static/js/2.a3ace2a3.chunk.js",
+    "static/js/2.a3ace2a3.chunk.js.map": "/react-portfolio-app/static/js/2.a3ace2a3.chunk.js.map",
     "index.html": "/react-portfolio-app/index.html",
-    "precache-manifest.b01b8911d9662e6f8083f9b29a7a481f.js": "/react-portfolio-app/precache-manifest.b01b8911d9662e6f8083f9b29a7a481f.js",
+    "precache-manifest.749adad41411b8b84eff942201c8a871.js": "/react-portfolio-app/precache-manifest.749adad41411b8b84eff942201c8a871.js",
     "service-worker.js": "/react-portfolio-app/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/react-portfolio-app/static/css/2.de424728.chunk.css.map",
     "static/css/main.2c4f5102.chunk.css.map": "/react-portfolio-app/static/css/main.2c4f5102.chunk.css.map",
-    "static/js/2.e8bb9ce6.chunk.js.LICENSE.txt": "/react-portfolio-app/static/js/2.e8bb9ce6.chunk.js.LICENSE.txt",
+    "static/js/2.a3ace2a3.chunk.js.LICENSE.txt": "/react-portfolio-app/static/js/2.a3ace2a3.chunk.js.LICENSE.txt",
     "static/media/abhishek.png": "/react-portfolio-app/static/media/abhishek.5c6ca2aa.png",
     "static/media/linkedin.jfif": "/react-portfolio-app/static/media/linkedin.fa79eecd.jfif",
     "static/media/tableau.png": "/react-portfolio-app/static/media/tableau.5a3bd4e1.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.d3b6ca8a.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.e8bb9ce6.chunk.js",
+    "static/js/2.a3ace2a3.chunk.js",
     "static/css/main.2c4f5102.chunk.css",
-    "static/js/main.0cebcaf6.chunk.js"
+    "static/js/main.70092720.chunk.js"
   ]
 }
