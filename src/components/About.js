@@ -28,7 +28,7 @@ function About() {
                     </h3>
 
                     <h5>
-                        Front End Developer, Data Scientist<br/>
+                        Front End Developer<br/>
                         Buffalo, New York
                     </h5>
                     <a
